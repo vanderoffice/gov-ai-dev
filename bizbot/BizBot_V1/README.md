@@ -1,6 +1,6 @@
 # California Business License Bot & Resources
 
-Welcome to the **CA-AIDev-BizBot** repository. This project provides a comprehensive suite of resources and an AI agent design for navigating the complex landscape of California business license acquisition, renewal, and compliance.
+Welcome to the **gov-ai-dev BizBot** repository. This project provides a comprehensive suite of resources and an AI agent design for navigating the complex landscape of California business license acquisition, renewal, and compliance.
 
 ## 🎯 Mission
 

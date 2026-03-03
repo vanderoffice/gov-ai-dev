@@ -20,8 +20,8 @@ Required flags:
 
 Optional flags:
   --output-dir  Override default parent directory
-                Bot default:  /Users/slate/Documents/GitHub/CA-AIDev
-                Form default: /Users/slate/Documents/GitHub/Automation
+                Bot default:  $HOME/Documents/GitHub/gov-ai-dev
+                Form default: $HOME/Documents/GitHub/gov-automation
 
 Examples:
   scaffold.sh --track bot --name waterbot --title "Water Rights Assistant"
@@ -107,9 +107,9 @@ fi
 
 if [[ -z "$OUTPUT_DIR" ]]; then
   if [[ "$TRACK" == "bot" ]]; then
-    OUTPUT_DIR="/Users/slate/Documents/GitHub/CA-AIDev"
+    OUTPUT_DIR="$HOME/Documents/GitHub/gov-ai-dev"
   else
-    OUTPUT_DIR="/Users/slate/Documents/GitHub/Automation"
+    OUTPUT_DIR="$HOME/Documents/GitHub/gov-automation"
   fi
 fi
 
@@ -174,14 +174,14 @@ Each file should follow the factory knowledge template:
 EOF
 
   # Create relative symlinks to factory pipeline scripts
-  # Default layout: CA-AIDev/factory/ (repo root) contains factory/scripts/
-  # Project lives at CA-AIDev/${NAME}/
+  # Default layout: gov-ai-dev/factory/ (repo root) contains factory/scripts/
+  # Project lives at gov-ai-dev/${NAME}/
   # From ${NAME}/scripts/ -> ../../factory/factory/scripts/
   FACTORY_SCRIPTS_REL="../../factory/factory/scripts"
 
   # If --output-dir was overridden, try to compute relative path
   # but fall back to the default assumption
-  if [[ "$OUTPUT_DIR" != "/Users/slate/Documents/GitHub/CA-AIDev" ]]; then
+  if [[ "$OUTPUT_DIR" != "$HOME/Documents/GitHub/gov-ai-dev" ]]; then
     # Non-default output dir — symlinks will use absolute path to factory scripts
     FACTORY_SCRIPTS_REL="$FACTORY_ROOT/factory/scripts"
   fi
@@ -225,7 +225,7 @@ cat > "$PROJECT_DIR/.planning/PROJECT.md" <<'PROJECTMD'
 ## Constraints
 - Deploy to vanderdev.net VPS
 - Schema: {{SCHEMA_NAME}}.document_chunks for RAG data
-- Follow factory standards (see CA-AIDev/factory/README.md)
+- Follow factory standards (see gov-ai-dev/factory/README.md)
 
 ## Key Decisions
 | Decision | Rationale | Outcome |
@@ -324,7 +324,7 @@ cat > "$PROJECT_DIR/README.md" <<READMEEOF
 
 ## Factory
 
-This project was scaffolded by [CA-AIDev/factory](https://github.com/CA-AIDev/factory).
+This project was scaffolded by [gov-ai-dev/factory](https://github.com/gov-ai-dev/factory).
 See \`factory/README.md\` for shared scripts and templates.
 READMEEOF
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Content Quality Audit Script for CA-AIDev Bots
+Content Quality Audit Script for gov-ai-dev Bots
 Phase 2 of Bot Quality Audit project
 
 Scans knowledge base files for potentially outdated content:
@@ -385,7 +385,7 @@ def print_summary(summary: dict, findings: list):
                 print(f"Context:\n{f['context']}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Content Quality Audit for CA-AIDev Bots")
+    parser = argparse.ArgumentParser(description="Content Quality Audit for gov-ai-dev Bots")
     parser.add_argument("--bizbot", action="store_true", help="Scan BizBot only")
     parser.add_argument("--kiddobot", action="store_true", help="Scan KiddoBot only")
     parser.add_argument("--waterbot", action="store_true", help="Scan WaterBot only")

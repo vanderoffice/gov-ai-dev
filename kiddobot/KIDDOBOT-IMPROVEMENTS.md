@@ -33,7 +33,7 @@ KiddoBot is a California childcare assistance chatbot on vanderdev.net. It helps
 | Intake Form | `vps:/root/vanderdev-website/src/components/kiddobot/IntakeForm.jsx` |
 | Eligibility Calculator | `vps:/root/vanderdev-website/src/components/kiddobot/EligibilityCalculator.jsx` |
 | n8n Workflow | https://n8n.vanderdev.net (workflow: "KiddoBot" or similar) |
-| Research Docs | https://github.com/vanderoffice/CA-AIDev/tree/main/kiddobot/ChildCareAssessment |
+| Research Docs | https://github.com/vanderoffice/gov-ai-dev/tree/main/kiddobot/ChildCareAssessment |
 
 ### Infrastructure
 
@@ -154,4 +154,4 @@ Screenshots showing the generic response issue are at:
 
 When starting a new Claude session, provide this context:
 
-> I'm working on KiddoBot (https://vanderdev.net/kiddobot), a California childcare chatbot. The RAG knowledge base has 1,252 chunks covering all 58 counties. Ingestion script is at `vps:/root/kiddobot-ingest/`. To re-ingest after updating research docs, rsync files to VPS and run the ingest script. See KIDDOBOT-IMPROVEMENTS.md in CA-AIDev/kiddobot/ for full context.
+> I'm working on KiddoBot (https://vanderdev.net/kiddobot), a California childcare chatbot. The RAG knowledge base has 1,252 chunks covering all 58 counties. Ingestion script is at `vps:/root/kiddobot-ingest/`. To re-ingest after updating research docs, rsync files to VPS and run the ingest script. See KIDDOBOT-IMPROVEMENTS.md in gov-ai-dev/kiddobot/ for full context.

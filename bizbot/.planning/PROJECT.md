@@ -82,7 +82,7 @@ California business licensing chatbot with 3 specialized modes (Just Chat, Guide
 | Content Column | `content` |
 | Embedding Column | `embedding` |
 | Webhooks | `/bizbot`, `/bizbot-licenses`, `/bizbot-license-finder` |
-| Knowledge Dir | `~/Documents/GitHub/CA-AIDev/bizbot/BizAssessment/` |
+| Knowledge Dir | `~/Documents/GitHub/gov-ai-dev/bizbot/BizAssessment/` |
 | Accent Color | orange |
 | Production File | `/root/vanderdev-website/src/pages/BizBot.jsx` |
 

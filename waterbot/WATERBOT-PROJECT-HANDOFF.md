@@ -63,7 +63,7 @@ All chatbots on vanderdev.net use identical patterns:
 
 ## Knowledge Base Repository
 
-**Location:** `CA-AIDev/waterbot-knowledge` (public GitHub repo)
+**Location:** `gov-ai-dev/waterbot-knowledge` (public GitHub repo)
 
 ### Directory Structure
 ```
@@ -362,7 +362,7 @@ npm install
 npm run dev  # Local testing
 
 # Create knowledge base repo
-gh repo create CA-AIDev/waterbot-knowledge --public --description "Knowledge base for WaterBot - California Water Boards RAG Chatbot"
+gh repo create gov-ai-dev/waterbot-knowledge --public --description "Knowledge base for WaterBot - California Water Boards RAG Chatbot"
 ```
 
 ---

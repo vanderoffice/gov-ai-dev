@@ -144,7 +144,7 @@ def main():
                     print(f"      Status: {status} - {msg}")
 
     # Save full results to JSON
-    output_file = "/Users/slate/projects/vanderdev-bots/url_validation_results.json"
+    output_file = os.path.join(os.path.expanduser("~"), "Documents/GitHub/gov-ai-dev/url_validation_results.json")
     with open(output_file, 'w') as f:
         # Convert to JSON-serializable format
         json_results = {}

@@ -6,7 +6,7 @@
 
 - **Track:** Bot (vanderdev-website SPA page)
 - **Schema:** {{SCHEMA_NAME}}
-- **Factory:** CA-AIDev/factory/ (shared scripts, templates)
+- **Factory:** gov-ai-dev/factory/ (shared scripts, templates)
 - **Location:** This directory
 
 ## Pipeline

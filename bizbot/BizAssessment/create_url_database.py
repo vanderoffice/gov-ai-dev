@@ -553,7 +553,7 @@ ws4.column_dimensions['A'].width = 25
 ws4.column_dimensions['B'].width = 80
 
 # Save workbook
-output_path = "/Users/slate/Documents/GitHub/CA-AIDev/bizbot/BizAssessment/CA_Business_Licensing_URLs.xlsx"
+output_path = os.path.join(os.path.expanduser("~"), "Documents/GitHub/gov-ai-dev/bizbot/BizAssessment/CA_Business_Licensing_URLs.xlsx")
 wb.save(output_path)
 print(f"Excel file created successfully: {output_path}")
 print(f"Total URLs: {len(data)}")

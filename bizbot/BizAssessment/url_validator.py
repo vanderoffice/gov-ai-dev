@@ -440,7 +440,7 @@ def main():
 
     # Save to CSV if requested
     if '--output-csv' in sys.argv:
-        csv_path = '/Users/slate/Documents/GitHub/ARCHIVE/Dev/CA-AIDev/bizbot/BizAssessment/url_validation_results.csv'
+        csv_path = os.path.join(os.path.expanduser("~"), "Documents/GitHub/gov-ai-dev/bizbot/BizAssessment/url_validation_results.csv")
         save_to_csv(results, csv_path)
 
     # Return exit code based on health

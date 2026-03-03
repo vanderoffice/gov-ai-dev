@@ -52,8 +52,8 @@ Repeatable pipeline: research → presentations → knowledge base → build →
 - GSD skill, Memory MCP, Perplexity MCP, LLM Gateway, Docling MCP
 
 **Key reference projects:**
-- WaterBot: `/Users/slate/Documents/GitHub/CA-AIDev/waterbot/` — bot template base
-- ECOS: `/Users/slate/Documents/GitHub/Automation/ECOS/` — form template base
+- WaterBot: `~/Documents/GitHub/gov-ai-dev/waterbot/` — bot template base
+- ECOS: `~/Documents/GitHub/gov-automation/ECOS/` — form template base
 - vanderdev-website: `/Users/slate/Documents/GitHub/vanderdev-website/` — SPA hosting all bot pages
 
 ## Constraints
@@ -62,7 +62,7 @@ Repeatable pipeline: research → presentations → knowledge base → build →
 - **Quality**: WaterBot-grade output — no shortcuts for brevity. 9/10 feature completeness minimum
 - **Patterns**: Follow existing code patterns (React, Tailwind, Supabase PostgREST, Docker multi-stage)
 - **Schema**: One Supabase schema per project, `{schema}.document_chunks` standard table name
-- **Skills**: Skills live in `~/.claude/commands/gov-factory/`, factory code in `CA-AIDev/factory/`
+- **Skills**: Skills live in `~/.claude/commands/gov-factory/`, factory code in `gov-ai-dev/factory/`
 
 ## Key Decisions
 
@@ -73,7 +73,7 @@ Repeatable pipeline: research → presentations → knowledge base → build →
 | Migrate all existing bots to standard RAG naming | Consistency over grandfathering — less confusion as factory scales | Shipped — Phase 1 migrate-rag-tables.sql |
 | Both research output formats (brief + assessment) | Stakeholder brief proves due diligence; developer assessment feeds GSD directly | Shipped — Phase 3 research-domain skill |
 | Subagents for research (not agent teams) | Stable today; documented upgrade path for when teams ship | Shipped — Phase 3 (5 parallel Task calls) |
-| Factory in CA-AIDev/factory/ (not separate repo) | Adjacent to bot projects, shared tooling | Shipped — all 7 phases built here |
+| Factory in gov-ai-dev/factory/ (not separate repo) | Adjacent to bot projects, shared tooling | Shipped — all 7 phases built here |
 | Two tracks: bot + form | CommentBot batch processing fits as bot-track variant, not a third track | Shipped — scaffold.sh, deploy scripts, roadmap templates support both |
 | Decks generated twice (post-research + post-deploy) | First pass uses research findings. Final pass adds live demo, real metrics. | Shipped — build-decks supports --final flag |
 | Zero npm deps for RAG chunker | Node.js stdlib only — portable with no install step | ✓ Good — Phase 1 |

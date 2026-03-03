@@ -233,7 +233,7 @@ def fix_urls_in_json_files(directory: str, replacements: List[Tuple[str, str]]) 
 
 
 def main():
-    base_path = "/Users/slate/projects/vanderdev-bots"
+    base_path = os.path.join(os.path.expanduser("~"), "Documents/GitHub/gov-ai-dev")
 
     print("="*60)
     print("FIXING BROKEN URLs IN VANDERDEV BOTS")

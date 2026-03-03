@@ -20,7 +20,7 @@ Run `/gsd:plan-phase 00-audit-baseline` to create the Phase 0 plan, then execute
 - Production file: `/root/vanderdev-website/src/pages/KiddoBot.jsx` (VPS)
 
 ## DO NOT
-- Edit code in `CA-AIDev/kiddobot/` — dev repo is READ-ONLY
+- Edit code in `gov-ai-dev/kiddobot/` — dev repo is READ-ONLY
 - Change shared components without testing all 3 bots
 - Hardcode SMI/FPL thresholds — use JSON config
 

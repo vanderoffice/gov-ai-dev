@@ -12,8 +12,9 @@ from pathlib import Path
 from openai import OpenAI
 
 # Configuration
-KIDDOBOT_DIR = Path("/Users/slate/projects/vanderdev-bots/rag-content/kiddobot")
-WATERBOT_DIR = Path("/Users/slate/projects/vanderdev-bots/rag-content/waterbot")
+_REPO_DIR = Path(os.path.expanduser("~")) / "Documents/GitHub/gov-ai-dev"
+KIDDOBOT_DIR = _REPO_DIR / "kiddobot/rag-content"
+WATERBOT_DIR = _REPO_DIR / "waterbot/rag-content"
 EMBEDDING_MODEL = "text-embedding-3-small"
 
 # Initialize OpenAI client

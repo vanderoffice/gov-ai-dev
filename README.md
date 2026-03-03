@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-# CA-AIDev
+# gov-ai-dev
 
 AI-powered citizen-facing services for California state government.
 
@@ -63,7 +63,7 @@ A meta-project for scaffolding new bot or form projects. Includes templates, RAG
 
 Two tracks:
 - **Bot Track** — chat pages deployed as routes in the vanderdev-website SPA
-- **Form Track** — standalone Docker containers (like [ECOS](https://github.com/vanderoffice/Automation))
+- **Form Track** — standalone Docker containers (like [ECOS](https://github.com/vanderoffice/gov-automation))
 
 ### Shared Resources
 
@@ -85,7 +85,7 @@ Cross-bot shared data including California locations (58 counties, 482 cities) w
 ## Repository Structure
 
 ```
-CA-AIDev/
+gov-ai-dev/
 ├── bizbot/              # Business licensing (planning + research)
 ├── kiddobot/            # Childcare navigation (planning + research)
 ├── waterbot/            # Water regulations (full dev environment)

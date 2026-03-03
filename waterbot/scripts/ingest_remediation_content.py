@@ -16,14 +16,16 @@ EMBEDDING_MODEL = "text-embedding-3-small"
 EMBEDDING_DIM = 1536
 
 # New files to ingest
+_REPO_DIR = os.path.join(os.path.expanduser("~"), "Documents/GitHub/gov-ai-dev")
+
 WATERBOT_NEW_FILES = [
-    "/Users/slate/projects/vanderdev-bots/rag-content/waterbot/batch_consumer_faq.json",
-    "/Users/slate/projects/vanderdev-bots/rag-content/waterbot/batch_advocate_toolkit.json",
-    "/Users/slate/projects/vanderdev-bots/rag-content/waterbot/batch_operator_guides.json",
+    os.path.join(_REPO_DIR, "waterbot/rag-content/batch_consumer_faq.json"),
+    os.path.join(_REPO_DIR, "waterbot/rag-content/batch_advocate_toolkit.json"),
+    os.path.join(_REPO_DIR, "waterbot/rag-content/batch_operator_guides.json"),
 ]
 
 KIDDOBOT_NEW_FILES = [
-    "/Users/slate/projects/vanderdev-bots/rag-content/kiddobot/family_fees_vs_copayments.json",
+    os.path.join(_REPO_DIR, "kiddobot/rag-content/family_fees_vs_copayments.json"),
 ]
 
 # Initialize OpenAI client

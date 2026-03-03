@@ -296,7 +296,7 @@ See: 05-SUMMARY.md for full details
 Last session: 2026-01-21
 Current state: **ALL PHASES COMPLETE**
 Resume file: This STATE.md
-Memory query: `CA-AIDev_Bot_Quality_Audit`
+Memory query: `gov-ai-dev_Bot_Quality_Audit`
 
 **Project Complete!** All 5 phases finished. Bots ready for user testing.
 

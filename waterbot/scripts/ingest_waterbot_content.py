@@ -13,7 +13,7 @@ from pathlib import Path
 from openai import OpenAI
 
 # Configuration
-CONTENT_DIR = Path("/Users/slate/projects/vanderdev-bots/rag-content/waterbot")
+CONTENT_DIR = Path(os.path.expanduser("~")) / "Documents/GitHub/gov-ai-dev/waterbot/rag-content"
 TABLE_NAME = "public.waterbot_documents"
 EMBEDDING_MODEL = "text-embedding-3-small"
 EMBEDDING_DIM = 1536

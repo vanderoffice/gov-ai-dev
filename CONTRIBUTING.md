@@ -1,4 +1,4 @@
-# Contributing to CA-AIDev
+# Contributing to gov-ai-dev
 
 ## About
 Multi-agent AI systems for California government citizen services. Powers BizBot, CommentBot, KiddoBot, WiseBot, and WaterBot.

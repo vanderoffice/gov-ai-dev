@@ -69,7 +69,7 @@ Full overhaul of KiddoBot to WaterBot v2.0 standard: refreshed knowledge base, r
 | Content Column | `chunk_text` |
 | Embedding Column | `embedding` |
 | Webhooks | `/kiddobot`, `/kiddobot-programs` |
-| Knowledge Dir | `~/Documents/GitHub/CA-AIDev/kiddobot/ChildCareAssessment/` |
+| Knowledge Dir | `~/Documents/GitHub/gov-ai-dev/kiddobot/ChildCareAssessment/` |
 | Accent Color | pink |
 | Production File | `/root/vanderdev-website/src/pages/KiddoBot.jsx` |
 

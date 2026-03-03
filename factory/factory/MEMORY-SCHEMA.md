@@ -94,7 +94,7 @@ mcp__memory__create_entities([{
     "status: active",
     "pipeline_stage: scaffolded",
     "created_date: 2026-02-08",
-    "project_dir: /Users/slate/Documents/GitHub/CA-AIDev/waterbot",
+    "project_dir: ~/Documents/GitHub/gov-ai-dev/waterbot",
     "schema_name: waterbot"
   ]
 }])

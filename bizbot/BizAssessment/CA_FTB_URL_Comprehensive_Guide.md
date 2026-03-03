@@ -117,4 +117,4 @@ Based on research conducted for the BizAssessment project:
 ---
 
 *Last Updated: December 2025*
-*Part of the CA-AIDev BizAssessment research repository*
+*Part of the gov-ai-dev BizAssessment research repository*

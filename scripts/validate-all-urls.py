@@ -209,7 +209,7 @@ async def validate_urls(urls: dict[str, list[str]]) -> dict:
 
 def main():
     print("=" * 70)
-    print("CA-AIDev Bot Knowledge Base URL Validator")
+    print("gov-ai-dev Bot Knowledge Base URL Validator")
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 70)
 

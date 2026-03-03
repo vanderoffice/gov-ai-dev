@@ -6,7 +6,7 @@
 
 - **Track:** Form (standalone Docker container)
 - **Schema:** {{SCHEMA_NAME}}
-- **Factory:** CA-AIDev/factory/ (shared templates)
+- **Factory:** gov-ai-dev/factory/ (shared templates)
 - **Location:** This directory
 
 ## Pipeline

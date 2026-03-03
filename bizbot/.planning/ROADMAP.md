@@ -10,7 +10,7 @@
 All code changes target the production repo on VPS:
 - **Repo:** `vanderoffice/vanderdev-website` at `/root/vanderdev-website/`
 - **Build:** `ssh vps "cd /root/vanderdev-website && npm run build"`
-- **Dev repos are READ-ONLY** — no code changes to `CA-AIDev/*`
+- **Dev repos are READ-ONLY** — no code changes to `gov-ai-dev/*`
 - **Knowledge content** is ingested via `/bot-ingest`, not deployed via git
 
 ## Completed Phases

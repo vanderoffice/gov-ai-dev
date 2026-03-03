@@ -13,8 +13,9 @@ from openai import OpenAI
 from datetime import datetime
 
 # Configuration
-TEST_SET_PATH = Path("/Users/slate/projects/vanderdev-bots/.planning/adversarial_test_set.json")
-OUTPUT_DIR = Path("/Users/slate/projects/vanderdev-bots/.planning")
+_REPO_DIR = Path(os.path.expanduser("~")) / "Documents/GitHub/gov-ai-dev"
+TEST_SET_PATH = _REPO_DIR / "waterbot/.planning/adversarial_test_set.json"
+OUTPUT_DIR = _REPO_DIR / "waterbot/.planning"
 EMBEDDING_MODEL = "text-embedding-3-small"
 TOP_K = 3  # Number of results to retrieve per query
 SIMILARITY_THRESHOLD_STRONG = 0.40  # Threshold for "strong" match

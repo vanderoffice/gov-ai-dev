@@ -1,4 +1,4 @@
-# CA-AIDev Shared Resources
+# gov-ai-dev Shared Resources
 
 Shared utilities and data files used across BizBot, KiddoBot, and WaterBot.
 

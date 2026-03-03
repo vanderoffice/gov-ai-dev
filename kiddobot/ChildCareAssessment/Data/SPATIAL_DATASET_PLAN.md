@@ -13,7 +13,7 @@ KiddoBot is an agentic AI assistant helping California parents navigate childcar
 
 ### Repository Location
 ```
-/Users/slate/Documents/GitHub/CA-AIDev/kiddobot/ChildCareAssessment/
+~/Documents/GitHub/gov-ai-dev/kiddobot/ChildCareAssessment/
 ```
 
 ### Project Status (as of 2025-12-23)
@@ -174,7 +174,7 @@ license_first_date, closed_date, file_date
 
 All outputs go to:
 ```
-/Users/slate/Documents/GitHub/CA-AIDev/kiddobot/ChildCareAssessment/Data/
+~/Documents/GitHub/gov-ai-dev/kiddobot/ChildCareAssessment/Data/
 ```
 
 ### Files to Create
@@ -258,7 +258,7 @@ When starting a fresh session, provide this context:
 
 ```
 I'm working on the ChildCareAssessment project at:
-/Users/slate/Documents/GitHub/CA-AIDev/kiddobot/ChildCareAssessment/
+~/Documents/GitHub/gov-ai-dev/kiddobot/ChildCareAssessment/
 
 Read the spatial dataset plan at:
 Data/SPATIAL_DATASET_PLAN.md

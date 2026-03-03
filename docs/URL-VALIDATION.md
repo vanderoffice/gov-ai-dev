@@ -1,8 +1,8 @@
-# URL Validation Process for CA-AIDev Knowledge Bases
+# URL Validation Process for gov-ai-dev Knowledge Bases
 
 ## Overview
 
-This document describes the validated URL checking process for CA-AIDev bot knowledge bases (WaterBot, BizBot, KiddoBot). Following QA failures in January 2026, this process was established to ensure URL integrity.
+This document describes the validated URL checking process for gov-ai-dev bot knowledge bases (WaterBot, BizBot, KiddoBot). Following QA failures in January 2026, this process was established to ensure URL integrity.
 
 ## Lesson Learned
 

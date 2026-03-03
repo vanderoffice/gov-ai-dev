@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Safe Incremental Embedding Update Script
-CA-AIDev Phase 1.4 - URL Remediation Re-embedding
+gov-ai-dev Phase 1.4 - URL Remediation Re-embedding
 
 Features:
 - Surgical updates (only affected chunks)
@@ -533,7 +533,7 @@ def main():
         sys.exit(1)
 
     print("="*60)
-    print("CA-AIDev Safe Incremental Embedding Update")
+    print("gov-ai-dev Safe Incremental Embedding Update")
     print("="*60)
     print(f"Dry run: {args.dry_run}")
     print(f"Backup location: {BACKUP_DIR}")
